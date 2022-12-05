@@ -5039,6 +5039,32 @@ img, video {
 nav {
   opacity: .5;
   background: #19171c;
+  padding: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 11px;
+  font-family: didoni-urw, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.icon-glass {
+  height: 20px;
+  padding-bottom: 5px;
+}
+
+.little-logo {
+  height: 20px;
+}
+
+@media (max-width: 992px) {
+  .little-logo-col {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
