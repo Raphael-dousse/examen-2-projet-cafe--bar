@@ -5038,12 +5038,13 @@ img, video {
 
 header {
   background-image: url("img-header.94857547.png");
-  padding-bottom: 531px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 445px;
 }
 
 nav {
-  opacity: .5;
-  background: #19171c;
+  background: #19171c80;
   padding: 0 10px;
 }
 
@@ -5062,6 +5063,10 @@ nav a {
 
 .icon-glass, .little-logo {
   height: 20px;
+}
+
+.logo {
+  margin-top: 200px;
 }
 
 @media (max-width: 992px) {
