@@ -55,6 +55,8 @@ video {
 }
 
 header {
+  background-image: url(../img/img-header.png);
+  padding-bottom: 531px;
 }
 
 nav {
@@ -70,12 +72,14 @@ nav a {
   font-weight: 400;
   font-style: normal;
   color: #ffffffff;
-  margin-right: 11px;
+}
+
+.spacing {
+  margin-right: 35px;
 }
 
 .icon-glass {
   height: 20px;
-  padding-bottom: 5px;
 }
 
 .little-logo {

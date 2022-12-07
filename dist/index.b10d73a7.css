@@ -5036,6 +5036,11 @@ img, video {
   padding-bottom: 12px;
 }
 
+header {
+  background-image: url("img-header.94857547.png");
+  padding-bottom: 531px;
+}
+
 nav {
   opacity: .5;
   background: #19171c;
@@ -5044,7 +5049,6 @@ nav {
 
 nav a {
   color: #fff;
-  margin-right: 11px;
   font-family: didoni-urw, serif;
   font-size: 18px;
   font-style: normal;
@@ -5052,12 +5056,11 @@ nav a {
   text-decoration: none;
 }
 
-.icon-glass {
-  height: 20px;
-  padding-bottom: 5px;
+.spacing {
+  margin-right: 35px;
 }
 
-.little-logo {
+.icon-glass, .little-logo {
   height: 20px;
 }
 
