@@ -5132,4 +5132,21 @@ h2 {
   font-size: 15px;
 }
 
+.coktails-signing, .playlist {
+  background: #103233;
+}
+
+.coktails-signing img {
+  object-fit: cover;
+}
+
+.coktails-signing h2 {
+  text-align: center;
+  margin: 40px 25px;
+}
+
+.coktails-signing p {
+  margin-top: 25px;
+}
+
 /*# sourceMappingURL=index.b10d73a7.css.map */
