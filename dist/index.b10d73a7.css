@@ -5037,10 +5037,10 @@ img, video {
 }
 
 header {
-  background-image: url("img-header.94857547.png");
+  background-image: url("img-header.525cbd2f.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 445px;
+  padding-bottom: 128px;
 }
 
 nav {
@@ -5066,7 +5066,7 @@ nav a {
 }
 
 .logo {
-  margin-top: 200px;
+  margin-top: 116px;
 }
 
 @media (max-width: 992px) {
