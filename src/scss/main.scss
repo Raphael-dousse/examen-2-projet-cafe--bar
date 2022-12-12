@@ -96,3 +96,28 @@ nav a {
     display: none;
   }
 }
+
+main {
+  background: #19171c;
+}
+
+main p {
+  font-family: OfeliaDisplay-Light;
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: justify;
+}
+
+@media (min-width: 992px) {
+  main p {
+    font-size: 22px;
+  }
+}
+
+h2 {
+  font-family: DidoniURWD-Reg;
+  font-size: 35px;
+  color: #f4b92f;
+  letter-spacing: 0;
+}

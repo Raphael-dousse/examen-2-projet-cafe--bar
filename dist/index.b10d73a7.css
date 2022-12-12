@@ -5075,4 +5075,29 @@ nav a {
   }
 }
 
+main {
+  background: #19171c;
+}
+
+main p {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: justify;
+  font-family: OfeliaDisplay-Light;
+  font-size: 15px;
+}
+
+@media (min-width: 992px) {
+  main p {
+    font-size: 22px;
+  }
+}
+
+h2 {
+  color: #f4b92f;
+  letter-spacing: 0;
+  font-family: DidoniURWD-Reg;
+  font-size: 35px;
+}
+
 /*# sourceMappingURL=index.b10d73a7.css.map */
