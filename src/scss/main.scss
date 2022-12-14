@@ -40,9 +40,6 @@ video {
   vertical-align: middle;
 }
 
-/* ====================================
-// base rules
-// ==================================== */
 .row + .row {
   margin-top: 16px;
 }
@@ -51,8 +48,6 @@ video {
 .row > [class^="col-"] {
   padding-top: 12px;
   padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
 }
 
 header {
@@ -150,7 +145,7 @@ h2 {
   color: #ffffff;
   letter-spacing: 0;
   text-align: center;
-  margin: 46px 0 46px 0;
+  margin: 46px 320px;
 }
 
 .coktails-signing,
@@ -160,6 +155,7 @@ h2 {
 
 .coktails-signing img {
   object-fit: cover;
+  box-shadow: 24px 27px 190px 0 rgba(0, 0, 0, 0.41);
 }
 
 .coktails-signing h2 {
@@ -172,4 +168,97 @@ h2 {
 
 .coktails-signing p {
   margin-top: 25px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.text-change p {
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .text-change p {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  .coktails-signing .row {
+    margin-top: 50px;
+  }
+}
+
+.citation-container {
+  background-image: url(../img/img-citation.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+.citation {
+  font-family: DidoniURWD-Reg;
+  font-size: 30px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+.name {
+  font-family: OfeliaDisplay-Light;
+  font-size: 13px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .name {
+    font-size: 22px;
+  }
+  .citation {
+    font-size: 60px;
+  }
+}
+
+footer {
+  background: #19171c;
+}
+
+.time-container {
+  font-family: OfeliaDisplay-Light;
+  font-size: 22px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 115px 20px;
+  border-right: 1px solid #979797;
+  border-left: 1px solid #979797;
+}
+
+.horaire img {
+  margin: 79px;
+}
+
+.contact-container {
+  font-family: OfeliaDisplay-Light;
+  font-size: 13px;
+  color: #ffffff;
+  letter-spacing: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+@media (min-width: 992px) {
+  .contact-container {
+    font-size: 22px;
+  }
 }

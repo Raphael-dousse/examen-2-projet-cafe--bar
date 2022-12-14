@@ -5031,8 +5031,6 @@ img, video {
 }
 
 .row > .col, .row > [class^="col-"] {
-  background-color: #563d7c26;
-  border: 1px solid #563d7c33;
   padding-top: 12px;
   padding-bottom: 12px;
 }
@@ -5127,7 +5125,7 @@ h2 {
   background: #19171c;
   border: 2px solid #f4b92f;
   border-radius: 11px;
-  margin: 46px 0;
+  margin: 46px 320px;
   font-family: OfeliaDisplay-Light;
   font-size: 15px;
 }
@@ -5138,6 +5136,7 @@ h2 {
 
 .coktails-signing img {
   object-fit: cover;
+  box-shadow: 24px 27px 190px #00000069;
 }
 
 .coktails-signing h2 {
@@ -5147,6 +5146,98 @@ h2 {
 
 .coktails-signing p {
   margin-top: 25px;
+}
+
+.text-container {
+  flex-direction: column;
+  justify-content: flex-end;
+  display: flex;
+}
+
+.text-change p {
+  text-align: left;
+}
+
+@media (min-width: 992px) {
+  .text-change p {
+    text-align: right;
+  }
+
+  .coktails-signing .row {
+    margin-top: 50px;
+  }
+}
+
+.citation-container {
+  background-image: url("img-citation.02c83b4b.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+}
+
+.citation {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  font-family: DidoniURWD-Reg;
+  font-size: 30px;
+}
+
+.name {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  font-family: OfeliaDisplay-Light;
+  font-size: 13px;
+}
+
+@media (min-width: 992px) {
+  .name {
+    font-size: 22px;
+  }
+
+  .citation {
+    font-size: 60px;
+  }
+}
+
+footer {
+  background: #19171c;
+}
+
+.time-container {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  border-left: 1px solid #979797;
+  border-right: 1px solid #979797;
+  flex-direction: column;
+  gap: 50px;
+  margin: 115px 20px;
+  font-family: OfeliaDisplay-Light;
+  font-size: 22px;
+  display: flex;
+}
+
+.horaire img {
+  margin: 79px;
+}
+
+.contact-container {
+  color: #fff;
+  letter-spacing: 0;
+  text-align: center;
+  flex-direction: column;
+  gap: 19px;
+  font-family: OfeliaDisplay-Light;
+  font-size: 13px;
+  display: flex;
+}
+
+@media (min-width: 992px) {
+  .contact-container {
+    font-size: 22px;
+  }
 }
 
 /*# sourceMappingURL=index.b10d73a7.css.map */
