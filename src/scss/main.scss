@@ -192,6 +192,10 @@ h2 {
   }
 }
 
+.playlist {
+  padding: 120px 0 120px 0;
+}
+
 .citation-container {
   background-image: url(../img/img-citation.png);
   background-repeat: no-repeat;
@@ -237,13 +241,16 @@ footer {
   display: flex;
   flex-direction: column;
   gap: 50px;
-  margin: 115px 20px;
+  margin: 115px 20px 0 20px;
   border-right: 1px solid #979797;
   border-left: 1px solid #979797;
 }
 
-.horaire img {
-  margin: 79px;
+.orion-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 114px;
 }
 
 .contact-container {

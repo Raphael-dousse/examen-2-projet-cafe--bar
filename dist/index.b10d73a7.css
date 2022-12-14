@@ -5168,6 +5168,10 @@ h2 {
   }
 }
 
+.playlist {
+  padding: 120px 0;
+}
+
 .citation-container {
   background-image: url("img-citation.02c83b4b.png");
   background-repeat: no-repeat;
@@ -5213,14 +5217,17 @@ footer {
   border-right: 1px solid #979797;
   flex-direction: column;
   gap: 50px;
-  margin: 115px 20px;
+  margin: 115px 20px 0;
   font-family: OfeliaDisplay-Light;
   font-size: 22px;
   display: flex;
 }
 
-.horaire img {
-  margin: 79px;
+.orion-img {
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 114px;
+  display: flex;
 }
 
 .contact-container {
