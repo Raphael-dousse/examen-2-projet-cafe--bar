@@ -5126,6 +5126,14 @@ h2 {
 
 .menu img {
   object-fit: cover;
+  -webkit-filter: sepia();
+  filter: sepia();
+  transition: all .3s ease-in-out;
+}
+
+.menu :hover img {
+  -webkit-filter: sepia(0);
+  filter: sepia(0);
 }
 
 .button-menu {
@@ -5140,7 +5148,7 @@ h2 {
   font-size: 15px;
 }
 
-.button-menu :hover {
+.button-menu:hover {
   color: #19171c;
   background: #f4b92f;
   transition-duration: .5s;
@@ -5193,14 +5201,14 @@ h2 {
 }
 
 .playlist {
-  padding: 120px 0;
+  padding: 140px 0 50px;
 }
 
 .citation-container {
   background-image: url("img-citation.02c83b4b.png");
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 100px;
+  padding: 150px;
 }
 
 .citation {
