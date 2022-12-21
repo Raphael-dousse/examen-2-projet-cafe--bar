@@ -131,7 +131,7 @@ h2 {
 }
 
 .intro {
-  padding-bottom: 22px;
+  padding: 50px 0 50px 0;
 }
 
 .intro h2 {
@@ -157,6 +157,12 @@ h2 {
   filter: sepia(0);
 }
 
+@media (max-width: 992px) {
+  .element {
+    display: none;
+  }
+}
+
 .button-menu {
   border: 2px solid #f4b92f;
   border-radius: 11px;
@@ -166,7 +172,7 @@ h2 {
   letter-spacing: 0;
   text-align: center;
   padding: 18px 80px;
-  margin: 30px 100px;
+  margin: 50px 100px 90px;
 }
 
 .button-menu:hover {
@@ -209,6 +215,7 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-bottom: 92px;
 }
 
 .text-change p {
@@ -228,14 +235,14 @@ h2 {
 }
 
 .playlist {
-  padding: 140px 0 50px 0;
+  padding: 100px 0 50px 0;
 }
 
 .citation-container {
   background-image: url(../img/img-citation.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 150px;
+  padding: 200px;
 }
 
 .citation {
@@ -294,6 +301,10 @@ footer {
   color: #ffffff;
   letter-spacing: 0;
   text-align: center;
+}
+
+.contact-container {
+  margin-top: 50px;
 }
 
 .contact-container p {
